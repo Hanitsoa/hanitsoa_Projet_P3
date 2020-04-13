@@ -1,0 +1,90 @@
+header
+{
+	text-align: center;
+	border: 1px solid #66CDAA;
+	background-color: #66CDAA;
+	color: yellow;
+}
+.titre
+{
+	padding-top: 20px;
+}
+body
+{
+	width: 700px;
+	border: 1px solid black;
+	text-align: center;
+	text-justify:auto;
+}
+main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #66CDAA;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #66CDAA;
+}
+
+footer a
+{
+	color: yellow;
+	font-size: 1.3em;
+}
+.section-title 
+{
+    text-align: center;
+    position: relative;
+}
+
+.section-title:before
+{
+    content: "";
+    left: 20px;/*bordure à gauche*/
+    right:20px;/*bordure à doite*/
+    height: 3px;/*Epaisseur*/
+    background: black;
+    position: absolute;
+    top: calc(50% - 1px);/*Position top*/
+}
+
+.section-title span 
+{
+    display: inline-block;
+    padding: 0 40px;/*Espace interieur*/
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+.Menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
+
+}
+.Menuprix
+{
+	text-align: right;
+}
+ul
+{
+	list-style: none;
+}
+.Menutext
+{
+	text-align: left;
+}
+a
+{
+	text-decoration: none;
+}
