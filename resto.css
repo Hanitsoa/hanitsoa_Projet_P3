@@ -8,9 +8,6 @@ header
 body
 {
 	width: 700px;
-	border: 1px solid black;
-	
-
 }
 section
 {
@@ -18,7 +15,6 @@ section
 	flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
-
 }
 #menu1, #menu2, #menu3, #menu4
 {
@@ -35,27 +31,36 @@ section
 {
 	background-color: #FFB6C1;
 	border: 1px solid #FFB6C1;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+}
+#menu1 p, #menu1 h1
+{
+	color:#A52A2A;
 }
 #menu2
 {
 	background-color: #FFE4E1;
 	border: 1px solid #FFE4E1;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #menu3
 {
 	background-color: #ADD8E6;
 	border: 1px solid #ADD8E6;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #menu4
 {
 	background-color: #E6E6FA;
 	border: 1px solid #E6E6FA;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #Prochainement
 {
 	display: flex;
 	text-align: center;
-	width: 150px;
+	width: 250px;
+	height: 40px;
     margin: auto;
 	justify-content: center;
 	border-radius: 10px;
@@ -63,6 +68,7 @@ section
 	background-color: #66CDAA;
 	color: yellow;
 	font-size: 1.3em;
+	align-items: center;
 }
 main
 {
@@ -113,4 +119,8 @@ footer a
 	-webkit-animation-name:shake;
 	-webkit-animation-duration:0.8s;
 	-webkit-animation-interation-count:infinite;
+}
+section a:hover
+{
+	font-size: 150%;
 }
