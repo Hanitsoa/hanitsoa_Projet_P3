@@ -88,3 +88,22 @@ a
 {
 	text-decoration: none;
 }
+@-webkit-keyframes shake
+{
+	0% {-webkit-transform:translate(5px, 5px);}
+	50%{-webkit-transform:translate(-5px, -5px);}
+}
+#Mentionslegales:hover {
+	-webkit-animation-name:shake;
+	-webkit-animation-duration:0.8s;
+	-webkit-animation-interation-count:infinite;
+}
+@-webkit-keyframes shake
+{
+	0% {-webkit-transform:translate(5px, 5px);}
+	50%{-webkit-transform:translate(-5px, -5px);}
+}
+#Contacteznous:hover {
+	-webkit-animation-name:shake;
+	-webkit-animation-duration:0.8s;
+	-webkit-animation-interation-count:infinite;
