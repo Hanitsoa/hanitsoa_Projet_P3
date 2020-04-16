@@ -1,13 +1,14 @@
 header
 {
 	text-align: center;
-	border: 1px solid #66CDAA;
-	background-color: #66CDAA;
-	color: yellow;
+	border: 1px solid #569C87;
+	background-color: #569C87;
+	color:#FCCA46;
 }
 body
 {
 	width: 700px;
+	margin: auto;
 }
 section
 {
@@ -29,8 +30,8 @@ section
 }
 #menu1
 {
-	background-color: #FFB6C1;
-	border: 1px solid #FFB6C1;
+	background-color: #FCDFDA;
+	border: 1px solid #FCDFDA;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #menu1 p, #menu1 h1
@@ -39,20 +40,20 @@ section
 }
 #menu2
 {
-	background-color: #FFE4E1;
-	border: 1px solid #FFE4E1;
+	background-color: #FEF5FD;
+	border: 1px solid #FEF5FD;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #menu3
 {
-	background-color: #ADD8E6;
-	border: 1px solid #ADD8E6;
+	background-color: #F9F9F9;
+	border: 1px solid #F9F9F9;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #menu4
 {
-	background-color: #E6E6FA;
-	border: 1px solid #E6E6FA;
+	background-color: #FDFFFD;
+	border: 1px solid #FDFFFD;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 #Prochainement
@@ -66,7 +67,7 @@ section
 	border-radius: 10px;
 	border: 1px solid #66CDAA;
 	background-color: #66CDAA;
-	color: yellow;
+	color: #FCCA46;
 	font-size: 1.3em;
 	align-items: center;
 	margin-bottom: 80px;
@@ -81,11 +82,12 @@ footer
 {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #66CDAA;
+	border: 1px solid #569C87;
+	margin: auto;
 	margin-top: 20px;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #66CDAA;
+	background-color: #569C87;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -98,7 +100,7 @@ a
 }
 footer a
 {
-	color: yellow;
+	color: #FCCA46;
 	font-size: 1.3em;
 }
 #Contacteznous
