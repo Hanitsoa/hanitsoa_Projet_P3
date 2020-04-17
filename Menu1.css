@@ -30,6 +30,7 @@ main
 	background:#FCDFDA;
 	border: 1px solid #FFB6C1;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	color: #330000;
 }
 footer
 {
@@ -66,7 +67,7 @@ footer a
     left: 40px;/*bordure à gauche*/
     right:40px;/*bordure à doite*/
     height: 3px;/*Epaisseur*/
-    background: black;
+    background: #330000;
     position: absolute;
     top: calc(50% - 1px);/*Position top*/
 }

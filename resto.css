@@ -30,13 +30,14 @@ section
 }
 #menu1
 {
-	background-color: #FCDFDA;
+	background-color:#FCDFDA;
 	border: 1px solid #FCDFDA;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	color: #663300;
 }
 #menu1 p, #menu1 h1
 {
-	color:#A52A2A;
+	color:#663300;
 }
 #menu2
 {
