@@ -47,7 +47,7 @@ section
 }
 i
 {
-	background: -webkit-linear-gradient(blue, red);
+	background-image: -webkit-linear-gradient(blue, red);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
@@ -56,6 +56,12 @@ i
 	background-color: #FEF5FD;
 	border: 1px solid #FEF5FD;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+}
+#menu2 p
+{
+	background-image: -webkit-linear-gradient(blue, red);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 }
 #menu3
 {
