@@ -84,6 +84,7 @@ i
 	background-image: -webkit-linear-gradient(right,#83c0fa,#0935e1);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+	font-size: 1.2em;
 }
 #menu3 h1
 {
@@ -107,7 +108,7 @@ i
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
-}
+
 #Prochainement
 {
 	display: flex;
