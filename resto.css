@@ -1,9 +1,10 @@
 header
 {
 	text-align: center;
-	border: 1px solid #569C87;
-	background-color: #569C87;
-	color:#FCCA46;
+	border: 1px solid #569d88;
+	background-color: #569d88;
+	color:#fdcc44;
+	font-family: 'Kanit', sans-serif;
 }
 body
 {
@@ -30,9 +31,9 @@ section
 }
 #menu1
 {
-	background-color:#FCDFDA;
-	border: 1px solid #FCDFDA;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	background-color:#fce0dc;
+	border: 1px solid #fce0dc;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 #menu1 h1
 {
@@ -43,43 +44,69 @@ section
 #menu1 span
 {
 	color:#663300;
-	font-family: 'Zhi Mang Xing', cursive;
+	/*font-family: 'Zhi Mang Xing', cursive;*/
+	/*font-family: 'Ma Shan Zheng', cursive;*/
+	font-family: 'Devonshire', cursive;
 }
 i
 {
-	background-image: -webkit-linear-gradient(right,#FF9900, #FF0066 90%);
+	background-image: -webkit-linear-gradient(right,#f7906a, #f15761 90%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
 #menu2
 {
-	background-color: #FEF5FD;
-	border: 1px solid #FEF5FD;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	background-color: #fff5fe;
+	border: 1px solid #fff5fe;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 #menu2 p
 {
-	font-family:"Amita Normal";
-	background-image: -webkit-linear-gradient(right,blue, red);
+	font-family: 'Croissant One', cursive;
+	background-image: -webkit-linear-gradient(right,#915bfd, #d07e4b);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
 #menu2 h1
 {
-	color: #CC6600;
+	color: #c8750a;
 	font-family: 'Georgia', serif;
 }
 #menu3
 {
 	background-color: #F9F9F9;
 	border: 1px solid #F9F9F9;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+#menu3 p
+{
+	font-family: 'Dancing Script', cursive;
+	background-image: -webkit-linear-gradient(right,#83c0fa,#0935e1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+#menu3 h1
+{
+	color: #0188fb;
 }
 #menu4
 {
 	background-color: #FDFFFD;
 	border: 1px solid #FDFFFD;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+#menu4 h1
+{
+	font-family: 'Nothing You Could Do', cursive;
+	color: #73c055;
+}
+#menu4 p
+{
+	font-family: 'Kaushan Script', cursive;
+	background-image: -webkit-linear-gradient(right,#c0ff7f,#55a44d);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 }
 #Prochainement
 {
@@ -90,9 +117,9 @@ i
     margin: auto;
 	justify-content: center;
 	border-radius: 10px;
-	border: 1px solid #66CDAA;
-	background-color: #66CDAA;
-	color: #FCCA46;
+	border: 1px solid #569d88;
+	background-color: #569d88;
+	color: #f7c947;
 	font-size: 1.3em;
 	align-items: center;
 	margin-bottom: 80px;
@@ -107,12 +134,12 @@ footer
 {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #569C87;
+	border: 1px solid #569d88;
 	margin: auto;
 	margin-top: 20px;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #569C87;
+	background-color: #569d88;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -125,7 +152,7 @@ a
 }
 footer a
 {
-	color: #FCCA46;
+	color: #fdcc44;
 	font-size: 1.3em;
 }
 #Contacteznous
