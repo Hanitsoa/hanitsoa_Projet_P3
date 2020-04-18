@@ -47,7 +47,7 @@ section
 }
 i
 {
-	background-image: -webkit-linear-gradient(blue, red);
+	background-image: -webkit-linear-gradient(right,#FF9900, #FF0066 90%);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
@@ -59,9 +59,15 @@ i
 }
 #menu2 p
 {
-	background-image: -webkit-linear-gradient(blue, red);
+	font-family:"Amita Normal";
+	background-image: -webkit-linear-gradient(right,blue, red);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+}
+#menu2 h1
+{
+	color: #CC6600;
+	font-family: 'Georgia', serif;
 }
 #menu3
 {
