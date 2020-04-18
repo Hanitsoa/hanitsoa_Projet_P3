@@ -33,12 +33,23 @@ section
 	background-color:#FCDFDA;
 	border: 1px solid #FCDFDA;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
-	color: #663300;
 }
-#menu1 p, #menu1 h1
+#menu1 h1
+{
+	font-family:'Cosmic Sans', cursive;
+    font-style: italic;
+	color:#663300;
+}
+#menu1 span
 {
 	color:#663300;
 	font-family: 'Zhi Mang Xing', cursive;
+}
+i
+{
+	background: -webkit-linear-gradient(blue, red);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 }
 #menu2
 {
