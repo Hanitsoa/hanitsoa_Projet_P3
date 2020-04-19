@@ -5,6 +5,9 @@ header
 	background-color: #569d88;
 	color:#fdcc44;
 	font-family: 'Kanit', sans-serif;
+	width: 100%;
+	margin-right: 0;
+	padding-right: 0;
 }
 #logo h1
 {
@@ -12,7 +15,7 @@ header
 }
 body
 {
-	width: 700px;
+	width: auto;
 	margin: auto;
 }
 section
@@ -32,12 +35,13 @@ section
 	text-align: center;
 	margin: 20px;
 	padding-top:100px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 #menu1
 {
 	background-color:#fce0dc;
 	border: 1px solid #fce0dc;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	
 }
 #menu1 h1
 {
@@ -62,7 +66,7 @@ i
 {
 	background-color: #fff5fe;
 	border: 1px solid #fff5fe;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	
 }
 #menu2 p
 {
@@ -81,7 +85,7 @@ i
 {
 	background-color: #F9F9F9;
 	border: 1px solid #F9F9F9;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	
 }
 #menu3 p
 {
@@ -100,7 +104,7 @@ i
 {
 	background-color: #FDFFFD;
 	border: 1px solid #FDFFFD;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	
 }
 #menu4 h1
 {
@@ -153,7 +157,7 @@ footer
 	bottom: 0;
 	right: 0;
 	left: 0;
-	width: 700px;
+	width: auto;
 }
 a
 {
@@ -167,8 +171,7 @@ footer a
 }
 #Contacteznous
 {
-	display: flex;
-	justify-content: space-between;
+	padding-right: 20px;
 }
 #Contacteznous:hover,
 #Mentionslegales:hover
@@ -178,4 +181,78 @@ footer a
 section a:hover
 {
 	font-size: 150%;
+}
+
+
+@media screen and (max-width:1440px)
+{
+	main
+	{
+		display: flex;
+		/*width:50%;*/
+		margin: auto;
+	}
+	#section1, #section2
+    {
+    	display: flex;
+    	flex-direction: row;
+    }
+    section
+    {
+    	display: flex;
+    	flex-direction: row;
+    	margin: auto;
+    }
+	header, footer
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width:1208px)
+{
+	main
+	{
+		display: flex;
+		/*width:50%;*/
+		margin: auto;
+	}
+	#section1, #section2
+    {
+    	display: flex;
+    	flex-direction: row;
+    }
+    section
+    {
+    	display: flex;
+    	flex-direction: column;
+    	margin: auto;
+    }
+	header, footer
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width:590px)
+{
+	main
+	{
+		display: flex;
+		/*width:50%;*/
+		margin: auto;
+	}
+	#section1, #section2
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+    section
+    {
+    	display: flex;
+    	flex-direction: column;
+    	margin: auto;
+    }
+	header, footer
+	{
+		width: 100%;
+	}
 }
