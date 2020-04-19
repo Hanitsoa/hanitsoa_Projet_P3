@@ -182,8 +182,6 @@ section a:hover
 {
 	font-size: 150%;
 }
-
-
 @media screen and (max-width:1440px)
 {
 	main
@@ -254,5 +252,9 @@ section a:hover
 	header, footer
 	{
 		width: 100%;
+	}
+	footer
+	{
+		font-size: 0.8em;
 	}
 }
