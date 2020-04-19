@@ -6,6 +6,10 @@ header
 	color:#fdcc44;
 	font-family: 'Kanit', sans-serif;
 }
+#logo h1
+{
+	font-size: 2.5em;
+}
 body
 {
 	width: 700px;
@@ -37,16 +41,16 @@ section
 }
 #menu1 h1
 {
-	font-family:'Cosmic Sans', cursive;
-    font-style: italic;
+	font-family: 'Kalam', cursive;
+	/*font-family:'Cosmic Sans', cursive;
+	font-style: italic;*/
 	color:#663300;
 }
 #menu1 span
 {
 	color:#663300;
-	/*font-family: 'Zhi Mang Xing', cursive;*/
-	/*font-family: 'Ma Shan Zheng', cursive;*/
 	font-family: 'Devonshire', cursive;
+	font-size: 1.2em;
 }
 i
 {
@@ -71,6 +75,7 @@ i
 {
 	color: #c8750a;
 	font-family: 'Georgia', serif;
+
 }
 #menu3
 {
@@ -89,6 +94,7 @@ i
 #menu3 h1
 {
 	color: #0188fb;
+	font-family: 'The Girl Next Door', cursive;
 }
 #menu4
 {
@@ -98,7 +104,7 @@ i
 }
 #menu4 h1
 {
-	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'The Girl Next Door', cursive;
 	color: #73c055;
 }
 #menu4 p
@@ -107,23 +113,25 @@ i
 	background-image: -webkit-linear-gradient(right,#c0ff7f,#55a44d);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+	font-size: 1.2em;
 }
 
 #Prochainement
 {
 	display: flex;
 	text-align: center;
-	width: 250px;
-	height: 40px;
+	width: 280px;
+	height: 50px;
     margin: auto;
 	justify-content: center;
 	border-radius: 10px;
 	border: 1px solid #569d88;
 	background-color: #569d88;
 	color: #f7c947;
-	font-size: 1.3em;
+	font-size: 1.7em;
 	align-items: center;
 	margin-bottom: 80px;
+	font-family: 'Manrope', sans-serif;
 }
 main
 {
@@ -155,6 +163,7 @@ footer a
 {
 	color: #fdcc44;
 	font-size: 1.3em;
+	font-family: 'Manrope', sans-serif;
 }
 #Contacteznous
 {
