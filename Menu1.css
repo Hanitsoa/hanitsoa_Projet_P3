@@ -22,9 +22,16 @@ header
 {
 	padding-top:20px;
 }
+i
+{
+	background-image: -webkit-linear-gradient(right,#f7906a, #f15761 90%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 h3
 {
 	font-size: 1.4em;
+	font-family: 'Kanit', sans-serif;
 }
 .titre
 {
@@ -38,7 +45,7 @@ body
 	margin: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	height: 900px;
+	height: 1000px;
 }
 main
 {
@@ -112,13 +119,14 @@ footer a
     top: calc(50% - 1px);/*Position top*/
 }
 
-.section-title p
+.section-title span
 {
     display:inline-block;
     padding: 0px 40px;/*Espace interieur*/
     background:#FCDFDA;
     position: relative;
     z-index: 0;
+    font-family: 'Caveat', cursive;
 }
 .section-title span
 {
@@ -165,6 +173,7 @@ a
 .Menutext
 {
 	margin-bottom: 0px;
+	font-family: 'Caveat', cursive;
 }
 .note
 {
@@ -177,7 +186,7 @@ color: red;
 	{
 		display: flex;
 		width:80%;
-		height: 800px;
+		height: 750px;
 		margin: auto;
 		margin-top: 0;
 		padding-right: 20px;
