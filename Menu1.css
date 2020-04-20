@@ -185,7 +185,7 @@ color: red;
 	main
 	{
 		display: flex;
-		width:80%;
+		width:auto;
 		height: 750px;
 		margin: auto;
 		margin-top: 0;
