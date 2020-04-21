@@ -47,6 +47,23 @@ body
 	padding-bottom: 0px;
 	height: 1000px;
 }
+img
+{
+	width: 200px;
+	margin: auto;
+}
+.titre
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: center;
+	padding: 10px;
+}
+.titre p
+{
+	font-size: 1.2em;
+}
 main
 {
 	display: flex;
@@ -109,40 +126,6 @@ footer a
 #Contacteznous
 {
 	padding-right: 0px;
-}
-.section-title 
-{
-    text-align: center;
-    position: relative;
-}
-
-.section-title:before
-{
-    content: "";
-    left: 40px;/*bordure à gauche*/
-    right:40px;/*bordure à doite*/
-    height: 3px;/*Epaisseur*/
-    background: #330000;
-    position: absolute;
-    top: calc(50% - 1px);/*Position top*/
-}
-
-.section-title span
-{
-    display:inline-block;
-    padding: 0px 40px;/*Espace interieur*/
-    background:#FCDFDA;
-    position: relative;
-    z-index: 0;
-    font-family: 'Caveat', cursive;
-}
-.section-title span
-{
-    display:inline-block;
-    padding: 0px 40px;/*Espace interieur*/
-    background:#FCDFDA ;
-    position: relative;
-    z-index: 0;
 }
 .Menu
 {
