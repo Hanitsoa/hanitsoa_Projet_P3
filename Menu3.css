@@ -1,9 +1,17 @@
 header
 {
 	text-align: center;
-	border: 1px solid #66CDAA;
-	background-color: #66CDAA;
-	color: yellow;
+	border: 1px solid #569d88;
+	background-color: #569d88;
+	color:#fdcc44;
+	font-family: 'Kanit', sans-serif;
+	width: auto;
+	margin-right: 0;
+	padding-right: 0;
+}
+#logo h1
+{
+	font-size: 2.5em;
 }
 .titre
 {
@@ -12,9 +20,40 @@ header
 }
 body
 {
-	width: 700px;
+	width: 80%;
 	text-align: center;
 	text-justify:auto;
+	margin: auto;
+}
+img
+{
+	width: 200px;
+	margin: auto;
+}
+.titre1, .titre2, .titre3
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: center;
+	padding: 10px;
+}
+.titre1 p, .titre2 p, .titre3 p
+{
+	font-size: 1.2em;
+}
+main h1
+{
+	background-image: -webkit-linear-gradient(right,#83c0fa,#0935e1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+}
+h3
+{
+	font-size: 1.4em;
+	font-family: 'Kanit', sans-serif;	
 }
 main
 {
@@ -23,67 +62,42 @@ main
 	justify-content: center;
 	margin: auto;
 	padding: 0;
-	width: 500px;
+	width:80%;
 	border: 1px solid black;
 	margin-bottom: 70px;
 	margin-top: 30px;
 	border: none;
-	background-image: linear-gradient(#e4e1e6,#f9f5fa);
+	background:#edefef;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	font-family: 'Caveat', cursive;
 }
 footer
 {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #66CDAA;
+	border: 1px solid #569d88;
+	background-color: #569d88;
+	color:#fdcc44;
+	margin: auto;
+	margin-top: 20px;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #66CDAA;
+	background-color: #569d88;
 	position: fixed;
 	bottom: 0;
-	left: 0;
 	right: 0;
-	width: 680px;
-	margin-left: 8px;
+	left: 0;
+	width:80%;
 }
-
+a
+{
+	text-decoration: none;
+}
 footer a
 {
-	color: yellow;
+	color: #fdcc44;
 	font-size: 1.3em;
-}
-.section-title 
-{
-    text-align: center;
-    position: relative;
-}
-
-.section-title:before
-{
-    content: "";
-    left: 20px;/*bordure à gauche*/
-    right:20px;/*bordure à doite*/
-    height: 3px;/*Epaisseur*/
-    background: blue;
-    position: absolute;
-    top: calc(50% - 1px);/*Position top*/
-}
-.section-title p
-{
-    display: inline-block;
-    padding: 0 40px;/*Espace interieur*/
-    background:#f3f0f5;
-    position: relative;
-    z-index: 0;
-
-}
-.section-title span 
-{
-    display: inline-block;
-    padding: 0 40px;/*Espace interieur*/
-    background: #e4e1e6;
-    position: relative;
-    z-index: 0;
+	font-family: 'Manrope', sans-serif;
 }
 .Menu
 {
@@ -96,6 +110,7 @@ footer a
 .Menuprix
 {
 	text-align: right;
+	padding-right: 20px;
 }
 ul
 {
@@ -113,4 +128,8 @@ a
 #Mentionslegales:hover
 {
 	transform: rotate(10deg);
+}
+body footer
+{
+	margin: auto;
 }
