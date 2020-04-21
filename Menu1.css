@@ -217,8 +217,9 @@ color: red;
     {
     	padding-top:15px;
     }
-	}
 }
+@media screen and (max-width:500px)
+{
 	body
 	{
 		width:500px;
