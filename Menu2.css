@@ -51,6 +51,23 @@ main h1
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
+img
+{
+	width: 200px;
+	margin: auto;
+}
+.titre1, .titre2, .titre3
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: center;
+	padding: 10px;
+}
+.titre1 p, .titre2 p, .titre3 p
+{
+	font-size: 1.2em;
+}
 footer
 {
 	display: flex;
@@ -79,66 +96,6 @@ footer a
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
 }
-.section-title1, .section-title2, .section-title3
-{
-    text-align: center;
-    position: relative;
-}
-
-.section-title1:before
-{
-    content: "";
-    left: 20px;/*bordure à gauche*/
-    right:20px;/*bordure à doite*/
-    height: 3px;/*Epaisseur*/
-    background: #c7750a;
-    position: absolute;
-    top: calc(50% - 1px);/*Position top*/
-}
-.section-title1 p
-{
-    display: inline-block;
-    padding: 0 40px;/*Espace interieur*/
-    background: #fff5fe;
-    position: relative;
-    z-index: 0;
- }
- .section-title2:before
-{
-    content: "";
-    left: 20px;/*bordure à gauche*/
-    right:20px;/*bordure à doite*/
-    height: 3px;/*Epaisseur*/
-    background: #a6679a;
-    position: absolute;
-    top: calc(50% - 1px);/*Position top*/
-}
-.section-title2 p 
-{
-    display: inline-block;
-    padding: 0 40px;/*Espace interieur*/
-    background: #fff5fe;
-    position: relative;
-    z-index: 0;
- }
-.section-title3:before
-{
-    content: "";
-    left: 20px;/*bordure à gauche*/
-    right:20px;/*bordure à doite*/
-    height: 3px;/*Epaisseur*/
-    background: #6e4bcd;
-    position: absolute;
-    top: calc(50% - 1px);/*Position top*/
-}
-.section-title3 p 
-{
-    display: inline-block;
-    padding: 0 40px;/*Espace interieur*/
-    background: #fff5fe;
-    position: relative;
-    z-index: 0;
- }
 .Menu
 {
 	display: flex;
