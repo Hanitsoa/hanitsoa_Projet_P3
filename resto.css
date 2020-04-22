@@ -46,8 +46,6 @@ section
 #menu1 h1
 {
 	font-family: 'Kalam', cursive;
-	/*font-family:'Cosmic Sans', cursive;
-	font-style: italic;*/
 	color:#663300;
 }
 #menu1 span
@@ -98,7 +96,7 @@ i
 #menu3 h1
 {
 	color: #0188fb;
-	font-family: 'The Girl Next Door', cursive;
+	font-family: 'Caveat', cursive;
 }
 #menu4
 {
@@ -108,7 +106,7 @@ i
 }
 #menu4 h1
 {
-	font-family: 'The Girl Next Door', cursive;
+	font-family: 'Caveat', cursive;
 	color: #73c055;
 }
 #menu4 p

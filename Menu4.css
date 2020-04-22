@@ -65,7 +65,7 @@ img
 .titre4 p
 {
 	font-size: 1.2em;
-	font-family: 'Kalam', cursive;
+	font-family: 'Caveat', cursive;
 	font-weight: bold;
 }
 footer
@@ -103,9 +103,8 @@ footer a
 	justify-content: space-between;
 	padding-right: 20px;
     line-height: 2em;
-    font-size: 0.8em;
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
+    font-size:1.1em;
+    font-family: 'Caveat', cursive;
 }
 .Menuprix
 {

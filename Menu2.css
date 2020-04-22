@@ -67,6 +67,7 @@ img
 .titre1 p, .titre2 p, .titre3 p
 {
 	font-size: 1.2em;
+	font-weight: bold;
 }
 footer
 {
