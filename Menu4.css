@@ -5,7 +5,7 @@ header
 	background-color: #569d88;
 	color:#fdcc44;
 	font-family: 'Kanit', sans-serif;
-	width: auto;
+	width: 100%;
 	margin-right: 0;
 	padding-right: 0;
 }
@@ -51,7 +51,7 @@ main
 }
 img
 {
-	width: 200px;
+	width: 33%;
 	margin: auto;
 }
 .titre4
@@ -101,6 +101,7 @@ footer a
 	justify-content: space-between;
 	padding-right: 20px;
     line-height: 2em;
+    font-size: 0.8em;
 }
 .Menuprix
 {
@@ -140,4 +141,107 @@ a
 #Mentionslegales:hover, #Contacteznous:hover
 {
  	-webkit-animation: animation 0.5s; 
+}
+@media screen and (max-width: 900px)
+{
+	body
+	{
+		width: 90%;
+	}
+	main
+	{
+		width: 90%;
+	}
+	body footer
+	{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 720px)
+{
+	body
+	{
+		width: 100%;
+	}
+	main
+	{
+		width: 97%;
+	}
+	body footer
+	{
+		width: 100%;
+		padding:10px;
+		padding-right: 0px;
+		margin-right:0px;
+	}
+
+}
+@media screen and (max-width: 630px)
+{
+	.Menu
+	{
+		padding: 0;
+	}
+}
+@media screen and (max-width: 550px)
+{
+	#Oeuvredemaitre .Menuprix
+	{
+		line-height: 4em;
+		padding-top: 0px;
+	}
+	#Oeuvredemaitre .Menutext
+	{
+		padding-top: 15px;
+	}
+	#Art .Menuprix
+	{
+		line-height: 4em;
+		padding-top: 0;
+	}
+	#Art .Menutext
+	{
+		padding-top: 15px;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	#Esquisse .Menuprix
+	{
+		line-height: 4em;
+		padding-top: 0;
+	}
+	#Esquisse .Menutext
+	{
+		padding-top: 15px;
+	}
+}
+@media screen and (max-width: 375px)
+{
+	#Oeuvredemaitre .Menuprix
+	{
+		padding-top: 26px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	#Esquisse .Menuprix
+	{
+		padding-top: 15px;
+		line-height: 6em;
+	}
+	#Oeuvredemaitre .Menuprix
+	{
+		padding-top: 15px;
+		line-height: 6em;
+	}
+	#Art .Menuprix
+	{
+		line-height: 6em;
+		padding-top: 0;
+	}
+	#Art .Menutext
+	{
+		padding-top: 30px;
+	}
 }
