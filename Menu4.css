@@ -65,6 +65,7 @@ img
 .titre4 p
 {
 	font-size: 1.2em;
+	font-family: 'Kalam', cursive;
 }
 footer
 {
@@ -102,6 +103,7 @@ footer a
 	padding-right: 20px;
     line-height: 2em;
     font-size: 0.8em;
+    font-family: 'Kalam', cursive;
 }
 .Menuprix
 {
@@ -220,6 +222,11 @@ a
 {
 	#Oeuvredemaitre .Menuprix
 	{
+		line-height: 6em;
+		padding-top: 0px;
+	}
+	#Oeuvredemaitre .Menutext
+	{
 		padding-top: 26px;
 	}
 }
@@ -232,13 +239,17 @@ a
 	}
 	#Oeuvredemaitre .Menuprix
 	{
-		padding-top: 15px;
-		line-height: 6em;
+		padding-top: 0px;
+		line-height: 8em;
+	}
+	#Oeuvredemaitre .Menutext
+	{
+		padding-top: 40px;
 	}
 	#Art .Menuprix
 	{
 		line-height: 6em;
-		padding-top: 0;
+		padding-top: 5px;
 	}
 	#Art .Menutext
 	{
