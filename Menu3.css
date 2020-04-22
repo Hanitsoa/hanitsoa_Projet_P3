@@ -5,7 +5,7 @@ header
 	background-color: #569d88;
 	color:#fdcc44;
 	font-family: 'Kanit', sans-serif;
-	width: auto;
+	width: 100%;
 	margin-right: 0;
 	padding-right: 0;
 }
@@ -27,7 +27,7 @@ body
 }
 img
 {
-	width: 200px;
+	width: 33%;
 	margin: auto;
 }
 .titre1, .titre2, .titre3
@@ -87,7 +87,6 @@ footer
 	bottom: 0;
 	right: 0;
 	left: 0;
-	width:80%;
 }
 a
 {
@@ -147,5 +146,72 @@ a
 }
 body footer
 {
-	margin: auto;
+	width:80%;
+}
+@media screen and (max-width: 750px)
+{
+	body
+	{
+		width: 90%;
+	}
+	body footer
+	{
+		width: 90%;
+	}
+	main
+	{
+		width: 90%;
+	}
+}
+@media screen and (max-width:650px)
+{
+	main
+	{
+		width: 97%;
+	}
+}
+@media screen and (max-width: 600px)
+{
+	body
+	{
+		width: 100%;
+	}
+	body footer
+	{
+		width: 100%;
+		padding:10px;
+		padding-right: 0px;
+		margin-right:0px;
+	}
+	main
+	{
+		width: 97%;
+	}
+}
+@media screen and (max-width: 520px)
+{
+	#Commencer .Menuprix
+	{
+		line-height: 1.8em;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	#Continuer .Menuprix
+	{
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	#Continuer .Menuprix
+	{
+		line-height: 2.5em;
+		padding-top: 10px;
+	}
+	#Commencer .Menuprix
+	{
+		line-height: 2.5em;
+		padding-top: 12px;
+	}
 }
