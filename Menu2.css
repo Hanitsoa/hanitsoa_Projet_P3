@@ -201,21 +201,36 @@ body footer
 		margin-right:0px;
 	}
 }
-@media screen and (max-width: 557px)
+@media screen and (max-width: 425px)
 {
 	#Plaisir .Menuprix
 	{
-		padding-top: 32px;
+		padding-top: 16px;
+		line-height: 4em;
 	}
 }
-@media screen and (max-width: 500px)
+@media screen and (max-width: 375px)
 {
 	.Menu
 	{
 		font-size: 0.8em;
+		padding-right: 10px;
+		padding-left: 0px;
 	}
 	#Plaisir .Menuprix
 	{
-		padding-top: 0;
+		padding-top: 10px;
+		line-height: 4em;
+	}
+	#Appetit .Menuprix
+	{
+		padding-top: 0px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	#Appetit .Menuprix
+	{
+		padding-top: 26px;
 	}
 }
