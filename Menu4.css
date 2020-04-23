@@ -235,8 +235,12 @@ a
 {
 	#Esquisse .Menuprix
 	{
-		padding-top: 15px;
+		padding-top: 0px;
 		line-height: 6em;
+	}
+	#Esquisse .Menutext
+	{
+		padding-top: 35px;
 	}
 	#Oeuvredemaitre .Menuprix
 	{
@@ -245,12 +249,12 @@ a
 	}
 	#Oeuvredemaitre .Menutext
 	{
-		padding-top: 40px;
+		padding-top: 50px;
 	}
 	#Art .Menuprix
 	{
-		line-height: 6em;
-		padding-top: 5px;
+		line-height: 5em;
+		padding-top: 0;
 	}
 	#Art .Menutext
 	{

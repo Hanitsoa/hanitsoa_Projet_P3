@@ -258,3 +258,41 @@ color: red;
 		padding-top: 32px;
 	}
 }
+@media screen and (max-width: 425px)
+{
+	#Prélude .Menuprix
+	{
+		line-height: 4em;
+		padding-top: 0;
+	}
+	#Prélude .Menutext
+	{
+		padding-top: 20px;
+	}
+	#Pdorgue .Menuprix
+	{
+		padding-top: 0px;
+		line-height: 4em;
+	}
+	#Pdorgue .Menutext
+	{
+		padding-top: 20px;
+	}	
+}
+@media screen and (max-width: 320px)
+{
+	#Prélude .Menuprix
+	{
+		line-height: 5em;
+		padding-top: 0px;
+	}
+	#Pdorgue .Menuprix
+	{
+		line-height: 6em;
+		padding-top: 0;
+	}
+	#Pdorgue .Menutext
+	{
+		padding-top: 40px;
+	}
+}
