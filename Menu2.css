@@ -69,6 +69,24 @@ img
 	font-size: 1.2em;
 	font-weight: bold;
 }
+.animation
+{
+	width: 300px;
+}
+.apres
+{
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: black;
+	transition: 0.5s;
+	margin-left:35%;
+}
+
+#animation:hover .apres
+	{
+		width:30%;
+	}
 footer
 {
 	display: flex;
