@@ -135,6 +135,41 @@ i
 	margin-bottom: 80px;
 	font-family: 'Manrope', sans-serif;
 }
+#point1, #point2, #point3
+{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius:50%;
+	background-color: #F2C847;
+}
+
+@-webkit-keyframes wave 
+{ 
+    0%, 60%, 100%  {
+        transform: initial;
+    	}
+
+    30% {
+        transform: translateY(-15px);
+    	}
+}
+#point1 
+{
+ 	-webkit-animation: wave 1.5s linear infinite; 
+}
+
+#point2
+{
+	-webkit-animation: wave 1.5s linear infinite; 
+	animation-delay: 0.3s;
+}
+
+#point3
+{
+	-webkit-animation: wave 1.5s linear infinite; 
+	animation-delay: 0.6s;
+}
 main
 {
 	display: flex;
