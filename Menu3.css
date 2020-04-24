@@ -18,6 +18,24 @@ header
 	padding-top: 20px;
 	color: #6990b5;
 }
+.animation
+{
+	width:300px;
+}
+.apres
+{
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: black;
+	transition: 0.5s;
+	margin-left:42%;
+}
+
+#animation:hover .apres
+	{
+		width:16%;
+	}
 body
 {
 	width: 80%;
