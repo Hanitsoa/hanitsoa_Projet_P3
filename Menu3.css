@@ -58,7 +58,7 @@ img
 }
 .titre1 p, .titre2 p, .titre3 p
 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 main h1
 {
@@ -89,6 +89,22 @@ main
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 	font-family: 'Caveat', cursive;
 }
+.Menu
+{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	padding-right: 20px;
+	line-height: 2em;
+	font-size: 1.3em;
+}
+.Menu1 ul,.Menu2 ul,.Menu3 ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
+}
 footer
 {
 	display: flex;
@@ -116,30 +132,9 @@ footer a
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
 }
-.Menu
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-right: 20px;
-
-}
-.Menuprix
-{
-	text-align: right;
-	padding-right: 20px;
-}
 ul
 {
 	list-style: none;
-}
-.Menutext
-{
-	text-align: left;
-}
-a
-{
-	text-decoration: none;
 }
 @-webkit-keyframes animation 
 { 
@@ -166,17 +161,16 @@ body footer
 {
 	width:80%;
 }
-@media screen and (max-width: 750px)
+@media screen and (max-width: 900px)
 {
-	body
+	.Menu
 	{
-		width: 90%;
+		font-size: 1.2em;
 	}
-	body footer
-	{
-		width: 90%;
-	}
-	main
+}
+@media screen and (max-width: 840px)
+{
+	body, body footer, main
 	{
 		width: 90%;
 	}
@@ -206,30 +200,26 @@ body footer
 		width: 97%;
 	}
 }
-@media screen and (max-width: 520px)
+@media screen and (max-width: 550px)
 {
-	#Commencer .Menuprix
+	.Menu
 	{
-		line-height: 1.8em;
+		font-size: 1.1em;
 	}
 }
-@media screen and (max-width: 425px)
+@media screen and (max-width: 500px)
 {
-	#Continuer .Menuprix
+	#Commencer .Menu1 ul, #Commencer .Menu2 ul, #Commencer .Menu3 ul,
+	#Continuer .Menu1 ul, #Continuer .Menu2 ul, #Continuer .Menu3 ul,
+	#Terminer .Menu1 ul, #Terminer .Menu2 ul, #Terminer .Menu3 ul
 	{
-		padding-top: 20px;
+		display: flex;
+		flex-direction:column;
+		line-height: 1.2em;
+		font-size: 1.1em;
 	}
-}
-@media screen and (max-width: 320px)
-{
-	#Continuer .Menuprix
+	img
 	{
-		line-height: 2.5em;
-		padding-top: 10px;
-	}
-	#Commencer .Menuprix
-	{
-		line-height: 2.5em;
-		padding-top: 12px;
+		width: 25%;
 	}
 }
