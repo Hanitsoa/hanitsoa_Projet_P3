@@ -113,6 +113,18 @@ main
 	font-size: 1.3em;
 	font-weight: bold;
 }
+#Prélude .Menu
+{
+	display: flex;
+	flex-direction: column;
+}
+.Menu1 ul,.Menu2 ul,.Menu3 ul,.Menu4 ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
+}
 footer
 {
 	display: flex;
@@ -295,11 +307,24 @@ color: red;
 	#Pdorgue .Menutext
 	{
 		padding-top: 20px;
-	}	
+	}
+	#Mfinal .Menu
+	{
+		line-height: 1em;
+	}
+	.Menu1 ul, .Menu2 ul, .Menu3 ul, .Menu4 ul
+	{
+		flex-direction: column;
+		line-height: 1em;
+	}
+	#noteenchante2
+	{
+		padding-bottom: 70px;
+	}
 }
 @media screen and (max-width: 320px)
 {
-	#Prélude .Menuprix
+	/*#Prélude .Menuprix
 	{
 		line-height: 5em;
 		padding-top: 0px;
@@ -312,5 +337,23 @@ color: red;
 	#Pdorgue .Menutext
 	{
 		padding-top: 40px;
+	}*/
+	.Menu1 ul, .Menu2 ul, .Menu3 ul, .Menu4 ul
+	{
+		flex-direction: column;
+		line-height: 1em;
+	}
+	#Mfinal .Menu
+	{
+		line-height: 1em;
+		margin-top: 0;
+	}
+	main
+	{
+		height: 1575px;
+	}
+	#noteenchante2
+	{
+		padding-bottom: 70px;
 	}
 }
