@@ -21,7 +21,6 @@ header
 	-webkit-text-fill-color:transparent;
 	font-size: 1.2em;
 	padding-top: 20px;
-	/*color: #3ec968;*/
 }
 body
 {
@@ -79,13 +78,28 @@ img
 	height: 2px;
 	background-color: black;
 	transition: 0.5s;
-	margin-left:0%;
+	margin-left:40%;
 }
-
 #animation:hover .apres
 	{
-		width:16%;
+		width:20%;
 	}
+#Esquisse .Menu, #Oeuvredemaitre .Menu, #Art .Menu
+{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	padding-right: 20px;
+	line-height: 2em;
+	font-size: 1.3em;
+}
+.Menu1 ul,.Menu2 ul,.Menu3 ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
+}
 footer
 {
 	display: flex;
@@ -124,19 +138,9 @@ footer a
     font-size:1.1em;
     font-family: 'Caveat', cursive;
 }
-.Menuprix
-{
-	text-align: right;
-	padding-right: 40px;
-}
 ul
 {
 	list-style: none;
-}
-.Menutext
-{
-	text-align: left;
-	padding-left: 40px;
 }
 a
 {
@@ -165,15 +169,7 @@ a
 }
 @media screen and (max-width: 900px)
 {
-	body
-	{
-		width: 90%;
-	}
-	main
-	{
-		width: 90%;
-	}
-	body footer
+	body, main, body footer
 	{
 		width: 90%;
 	}
@@ -195,87 +191,36 @@ a
 		padding-right: 0px;
 		margin-right:0px;
 	}
-
 }
-@media screen and (max-width: 630px)
+@media screen and (max-width: 730px)
 {
-	.Menu
+	#Esquisse .Menu, #Oeuvredemaitre .Menu, #Art .Menu
 	{
 		padding: 0;
+		font-size: 1.2em;
+	}
+	main
+	{
+		width: 95%;
 	}
 }
-@media screen and (max-width: 550px)
+@media screen and (max-width: 560px)
 {
-	#Oeuvredemaitre .Menuprix
+	#Esquisse .Menu, #Oeuvredemaitre .Menu, #Art .Menu
 	{
-		line-height: 4em;
-		padding-top: 0px;
+		font-size: 1.1em;
 	}
-	#Oeuvredemaitre .Menutext
+	main
 	{
-		padding-top: 15px;
-	}
-	#Art .Menuprix
-	{
-		line-height: 4em;
-		padding-top: 0;
-	}
-	#Art .Menutext
-	{
-		padding-top: 15px;
+		width: 95%;
 	}
 }
-@media screen and (max-width: 425px)
+@media screen and (max-width: 520px)
 {
-	#Esquisse .Menuprix
+	.Menu1 ul, .Menu2 ul, .Menu3 ul
 	{
-		line-height: 4em;
-		padding-top: 0;
-	}
-	#Esquisse .Menutext
-	{
-		padding-top: 15px;
-	}
-}
-@media screen and (max-width: 375px)
-{
-	#Oeuvredemaitre .Menuprix
-	{
-		line-height: 6em;
-		padding-top: 0px;
-	}
-	#Oeuvredemaitre .Menutext
-	{
-		padding-top: 26px;
-	}
-}
-@media screen and (max-width: 320px)
-{
-	#Esquisse .Menuprix
-	{
-		padding-top: 0px;
-		line-height: 6em;
-	}
-	#Esquisse .Menutext
-	{
-		padding-top: 35px;
-	}
-	#Oeuvredemaitre .Menuprix
-	{
-		padding-top: 0px;
-		line-height: 8em;
-	}
-	#Oeuvredemaitre .Menutext
-	{
-		padding-top: 50px;
-	}
-	#Art .Menuprix
-	{
-		line-height: 5em;
-		padding-top: 0;
-	}
-	#Art .Menutext
-	{
-		padding-top: 30px;
+		display: flex;
+		flex-direction: column;
+		line-height: 1.5em;
 	}
 }
