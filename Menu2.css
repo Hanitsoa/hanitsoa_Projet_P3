@@ -53,7 +53,7 @@ main h1
 }
 img
 {
-	width: 33%;
+	width: 25%;
 	margin: auto;
 }
 .titre1, .titre2, .titre3
@@ -118,10 +118,17 @@ footer a
 .Menu
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction:column;
 	justify-content: space-between;
 	padding-right: 20px;
 	line-height: 2em;
+}
+.Menu1 ul,.Menu2 ul,.Menu3 ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 20px;
 }
 #Appetit
 {
@@ -135,17 +142,13 @@ footer a
 {
 	color: #6e4bcd;
 }
-.Menuprix
+#Appetit .Menu1
 {
-	text-align: right;
+	line-height: 1em;
 }
 ul
 {
 	list-style: none;
-}
-.Menutext
-{
-	text-align: left;
 }
 a
 {
@@ -178,28 +181,16 @@ body footer
 }
 @media sreen and (max-width: 900px)
 {
-	body
-	{
-		width: 80%;
-	}
-	main
+	body, main
 	{
 		width: 80%;
 	}
 }
 @media screen and (max-width: 800px)
 {
-	body
+	body, boody footer, main
 	{
 		width: 90%
-	}
-	body footer
-	{
-		width: 90%;
-	}
-	main
-	{
-		width: 90%;
 	}
 }
 @media screen and (max-width: 690px)
@@ -220,15 +211,7 @@ body footer
 		margin-right:0px;
 	}
 }
-@media screen and (max-width: 425px)
-{
-	#Plaisir .Menuprix
-	{
-		padding-top: 16px;
-		line-height: 4em;
-	}
-}
-@media screen and (max-width: 375px)
+@media screen and (max-width: 470px)
 {
 	.Menu
 	{
@@ -236,20 +219,18 @@ body footer
 		padding-right: 10px;
 		padding-left: 0px;
 	}
-	#Plaisir .Menuprix
-	{
-		padding-top: 10px;
-		line-height: 4em;
-	}
-	#Appetit .Menuprix
-	{
-		padding-top: 0px;
-	}
 }
-@media screen and (max-width: 320px)
+@media screen and (max-width: 440px)
 {
-	#Appetit .Menuprix
 	{
-		padding-top: 26px;
+		line-height: 1em;
+	}
+	#Appetit .Menu1 ul, #Appetit .Menu2 ul, #Appetit .Menu3 ul,
+	#Plaisir .Menu1 ul, #Plaisir .Menu2 ul, #Plaisir .Menu3 ul
+	{
+		display: flex;
+		flex-direction:column;
+		line-height: 1.5em;
+		font-size: 1.3em;
 	}
 }
