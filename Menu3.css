@@ -24,17 +24,22 @@ header
 }
 .apres
 {
+	position: absolute;
+	bottom: 0;
+	left: 39%;
 	display: block;
 	width: 0%;
 	height: 2px;
 	background-color: black;
 	transition: 0.5s;
-	margin-left:42%;
+	
 }
 
-#animation:hover .apres
+#animation .titre1 p:hover ~ .apres,
+#animation .titre2 p:hover ~ .apres,
+#animation .titre3 p:hover ~ .apres
 	{
-		width:16%;
+		width:23%;
 	}
 body
 {
@@ -50,6 +55,7 @@ img
 }
 .titre1, .titre2, .titre3
 {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	margin: auto;
