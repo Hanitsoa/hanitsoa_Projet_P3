@@ -29,6 +29,17 @@ h3
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
 }
+body #Gourmandises .Menu4
+{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	/*margin: auto;*/
+	padding-right: 20px;
+	margin-bottom: 30px;
+	/*margin-top: 30px;*/
+	line-height: 2em;
+	}
 main
 {
 	display: flex;
@@ -238,5 +249,32 @@ body footer
 		flex-direction:column;
 		line-height: 1.5em;
 		font-size: 1.3em;
+	}
+	li span
+	{
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	body footer {
+		font-size: 0.7em;
+		padding-right: 30px;
+		margin-left: 0px;
+		margin-right: 0;
+		width: 90%;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	#animation .titre1 p:hover ~ .apres,
+	#animation .titre2 p:hover ~ .apres,
+	#animation .titre3 p:hover ~ .apres
+	{
+		width:35%;
+	}
+	.apres
+	{
+		left:32%;
+		width: 0%;
+		height:2px;
+		transition: 0.5s;
 	}
 }
