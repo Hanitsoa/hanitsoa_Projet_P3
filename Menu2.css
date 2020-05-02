@@ -209,6 +209,19 @@ body footer
 	{
 		width: 90%
 	}
+	#animation .titre1 p:hover ~ .apres,
+	#animation .titre2 p:hover ~ .apres,
+	#animation .titre3 p:hover ~ .apres
+	{
+		width:34%;
+	}
+	.apres
+	{
+		left:33%;
+		width: 0%;
+		height:2px;
+		transition: 0.5s;
+	}
 }
 @media screen and (max-width: 690px)
 {
@@ -268,11 +281,11 @@ body footer
 	#animation .titre2 p:hover ~ .apres,
 	#animation .titre3 p:hover ~ .apres
 	{
-		width:35%;
+		width:40%;
 	}
 	.apres
 	{
-		left:32%;
+		left:30%;
 		width: 0%;
 		height:2px;
 		transition: 0.5s;
