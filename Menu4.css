@@ -226,4 +226,21 @@ a
 		flex-direction: column;
 		line-height: 1.5em;
 	}
+	li span
+	{
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	body footer
+	{
+		font-size: 0.8em;
+	}
+	#animation .titre4 p:hover ~ .apres
+	{
+		width:28%;
+	}
+	.apres
+	{
+		left: 37%;
+	}
 }
