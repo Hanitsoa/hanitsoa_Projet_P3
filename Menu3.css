@@ -228,4 +228,13 @@ body footer
 	{
 		width: 25%;
 	}
+	li span
+	{
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	body footer
+	{
+		font-size: 0.8em;
+	}
 }
