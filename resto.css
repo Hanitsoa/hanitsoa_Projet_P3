@@ -41,18 +41,16 @@ section
 {
 	background-color:#fce0dc;
 	border: 1px solid #fce0dc;
-	
+	color:#663300;
+	font-size: 1.2em;
 }
-#menu1 h1
+#menu1 h2
 {
 	font-family: 'Kalam', cursive;
-	color:#663300;
 }
 #menu1 span
 {
-	color:#663300;
 	font-family: 'Devonshire', cursive;
-	font-size: 1.2em;
 }
 i
 {
@@ -64,7 +62,6 @@ i
 {
 	background-color: #fff5fe;
 	border: 1px solid #fff5fe;
-	
 }
 #menu2 p
 {
@@ -73,17 +70,15 @@ i
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
-#menu2 h1
+#menu2 h2
 {
 	color: #c8750a;
 	font-family: 'Georgia', serif;
-
 }
 #menu3
 {
 	background-color: #F9F9F9;
 	border: 1px solid #F9F9F9;
-	
 }
 #menu3 p
 {
@@ -93,7 +88,7 @@ i
 	-webkit-text-fill-color:transparent;
 	font-size: 1.2em;
 }
-#menu3 h1
+#menu3 h2
 {
 	color: #0188fb;
 	font-family: 'Caveat', cursive;
@@ -102,9 +97,8 @@ i
 {
 	background-color: #FDFFFD;
 	border: 1px solid #FDFFFD;
-	
 }
-#menu4 h1
+#menu4 h2
 {
 	font-family: 'Caveat', cursive;
 	color: #73c055;
@@ -117,7 +111,6 @@ i
 	-webkit-text-fill-color:transparent;
 	font-size: 1.2em;
 }
-
 #Prochainement
 {
 	display: flex;
