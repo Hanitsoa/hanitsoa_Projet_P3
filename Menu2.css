@@ -38,6 +38,14 @@ body #Gourmandises .Menu4
 	margin-bottom: 30px;
 	line-height: 2em;
 }
+#Appetit .Menu7
+{
+	color: #c7750a;
+}
+#Appetit .titre1
+{
+	color: #c7750a;
+}
 main
 {
 	display: flex;
