@@ -24,7 +24,7 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-h3
+h2
 {
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
@@ -34,12 +34,10 @@ body #Gourmandises .Menu4
 	display: flex;
 	flex-direction: column;
 	text-align: left;
-	/*margin: auto;*/
 	padding-right: 20px;
 	margin-bottom: 30px;
-	/*margin-top: 30px;*/
 	line-height: 2em;
-	}
+}
 main
 {
 	display: flex;
@@ -55,12 +53,13 @@ main
 	background:#fff5fe;
 	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 }
-main h1
+main h3
 {
 	font-family: 'Croissant One', cursive;
 	background-image: -webkit-linear-gradient(right,#915bfd, #d07e4b);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+	font-size: 1.5em;
 }
 img
 {
@@ -75,8 +74,10 @@ img
 	margin: auto;
 	align-items: center;
 	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
 }
-.titre1 p, .titre2 p, .titre3 p
+/*.titre1 p, .titre2 p, .titre3 p*/
 {
 	font-size: 1.2em;
 	font-weight: bold;
@@ -95,9 +96,7 @@ img
 	height: 2px;
 	background-color: black;
 	transition: 0.5s;
-	
 }
-
 #animation .titre1 p:hover ~ .apres,
 #animation .titre2 p:hover ~ .apres,
 #animation .titre3 p:hover ~ .apres
@@ -122,15 +121,12 @@ footer
 	left: 0;
 	width:80%;
 }
-a
-{
-	text-decoration: none;
-}
 footer a
 {
 	color: #fdcc44;
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
+	text-decoration: none;
 }
 .Menu
 {
@@ -146,6 +142,7 @@ footer a
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 20px;
+	list-style: none;
 }
 #Appetit
 {
@@ -155,21 +152,14 @@ footer a
 {
 	color: #a6679a;
 }
-#Gourmandises
+#Gourmandises, .Menu4 ul 
 {
 	color: #6e4bcd;
+	list-style: none;
 }
 #Appetit .Menu1
 {
-	line-height: 1em;
-}
-ul
-{
-	list-style: none;
-}
-a
-{
-	text-decoration: none;
+	line-height: 0.8em;
 }
 @-webkit-keyframes animation 
 { 
