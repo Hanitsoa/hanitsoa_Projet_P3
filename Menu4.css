@@ -13,13 +13,13 @@ header
 {
 	font-size: 2.5em;
 }
-.titre
+.titre h3
 {
 	font-family: 'Kaushan Script', cursive;
 	background-image: -webkit-linear-gradient(right,#c0ff7f,#55a44d);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	font-size: 1.2em;
+	font-size: 2.1em;
 	padding-top: 20px;
 }
 body
@@ -29,7 +29,7 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-h3
+h2
 {
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
@@ -61,8 +61,11 @@ img
 	margin: auto;
 	align-items: center;
 	padding: 10px;
+	font-size: 1.2em;
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
 }
-.titre4 p
+/*.titre4 p*/
 {
 	font-size: 1.2em;
 	font-family: 'Caveat', cursive;
@@ -102,6 +105,7 @@ img
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 20px;
+	list-style: none;
 }
 footer
 {
@@ -121,15 +125,12 @@ footer
 	left: 0;
 	width:80%;
 }
-a
-{
-	text-decoration: none;
-}
 footer a
 {
 	color: #fdcc44;
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
+	text-decoration: none;
 }
 .Menu
 {
@@ -140,14 +141,6 @@ footer a
     line-height: 2em;
     font-size:1.1em;
     font-family: 'Caveat', cursive;
-}
-ul
-{
-	list-style: none;
-}
-a
-{
-	text-decoration: none;
 }
 @-webkit-keyframes animation 
 { 
