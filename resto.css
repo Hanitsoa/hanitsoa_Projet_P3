@@ -1,4 +1,4 @@
-header
+/*header
 {
 	text-align: center;
 	border: 1px solid #569d88;
@@ -12,10 +12,10 @@ header
 #logo h1
 {
 	font-size: 2.5em;
-}
+}*/
 body
 {
-	width: auto;
+	width: 100%;
 	margin: auto;
 }
 section
@@ -169,7 +169,7 @@ main
 	flex-direction: column;
 	justify-content: center;
 }
-footer
+/*footer
 {
 	display: flex;
 	flex-direction: row;
@@ -184,18 +184,18 @@ footer
 	right: 0;
 	left: 0;
 	width: auto;
-}
+}*/
 a
 {
 	text-decoration: none;
 }
-footer a
+/*footer a
 {
 	color: #fdcc44;
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
-}
-#Contacteznous
+}*/
+/*#Contacteznous
 {
 	padding-right: 20px;
 }
@@ -219,7 +219,7 @@ footer a
 #Mentionslegales:hover, #Contacteznous:hover
 {
  	-webkit-animation: animation 0.5s; 
-}
+}*/
 section a:hover
 {
 	font-size: 150%;
@@ -243,7 +243,7 @@ section a:hover
     	flex-direction: row;
     	margin: auto;
     }
-	header, footer
+	header, body footer
 	{
 		width: 100%;
 	}

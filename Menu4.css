@@ -1,4 +1,4 @@
-header
+/*header
 {
 	text-align: center;
 	border: 1px solid #569d88;
@@ -12,7 +12,7 @@ header
 #logo h1
 {
 	font-size: 2.5em;
-}
+}*/
 .titre h3
 {
 	font-family: 'Kaushan Script', cursive;
@@ -29,31 +29,30 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-h2
+/*h2
 {
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
-}
+}*/
 main
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: auto;
-	padding: 0;
 	width: 80%;
-	border: 1px solid black;
-	margin-bottom: 70px;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 	margin-top: 30px;
 	border: none;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+	margin-bottom: 70px;
+	padding: 0;
 }
-img
+/*img
 {
 	width: 33%;
 	margin: auto;
-}
-.titre4
+}*/
+/*.titre4
 {
 	position: relative;
 	display: flex;
@@ -61,30 +60,27 @@ img
 	margin: auto;
 	align-items: center;
 	padding: 10px;
-	font-size: 1.2em;
-	font-family: 'Caveat', cursive;
-	font-weight: bold;
-}
-/*.titre4 p*/
+}*/
+.titre4 p
 {
-	font-size: 1.2em;
 	font-family: 'Caveat', cursive;
-	font-weight: bold;
+	/*font-size: 1.3em;
+	font-weight: bold;*/
 }
-.animation
+/*.animation
 {
 	width: 300px;
-}
+}*/
 .apres
 {
-	position: absolute;
+	/*position: absolute;
 	bottom: 0;
-	left: 40%;
 	display: block;
 	width: 0%;
 	height: 2px;
 	background-color: black;
-	transition: 0.5s;
+	transition: 0.5s;*/
+	left: 40%;
 }
 #animation .titre4 p:hover ~ .apres
 	{
@@ -99,21 +95,21 @@ img
 	line-height: 2em;
 	font-size: 1.3em;
 }
-.Menu1 ul,.Menu2 ul,.Menu3 ul
+/*.Menu1 ul,.Menu2 ul,.Menu3 ul
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 20px;
 	list-style: none;
-}
-footer
+	line-height: 2em;
+}*/
+/*footer
 {
 	display: flex;
 	flex-direction: row;
 	border: 1px solid #569d88;
 	background-color: #569d88;
-	color:#fdcc44;
 	margin: auto;
 	margin-top: 20px;
 	justify-content: space-between;
@@ -131,18 +127,18 @@ footer a
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
 	text-decoration: none;
-}
+}*/
 .Menu
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	padding-right: 20px;
     line-height: 2em;
     font-size:1.1em;
     font-family: 'Caveat', cursive;
 }
-@-webkit-keyframes animation 
+/*@-webkit-keyframes animation 
 { 
     0%  {
         transform: rotate(30deg);
@@ -162,7 +158,7 @@ footer a
 #Mentionslegales:hover, #Contacteznous:hover
 {
  	-webkit-animation: animation 0.5s; 
-}
+}*/
 @media screen and (max-width: 900px)
 {
 	body, main, body footer
@@ -213,7 +209,9 @@ footer a
 }
 @media screen and (max-width: 520px)
 {
-	.Menu1 ul, .Menu2 ul, .Menu3 ul
+    #Esquisse .Menu1 ul, #Esquisse .Menu2 ul, #Esquisse .Menu3 ul,
+    #Oeuvredemaitre .Menu1 ul, #Oeuvredemaitre .Menu2 ul, #Oeuvredemaitre .Menu3 ul,
+    #Art .Menu1 ul, #Art .Menu2 ul, #Art .Menu3 ul
 	{
 		display: flex;
 		flex-direction: column;

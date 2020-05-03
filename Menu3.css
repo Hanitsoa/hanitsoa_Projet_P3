@@ -1,4 +1,4 @@
-header
+/*header
 {
 	text-align: center;
 	border: 1px solid #569d88;
@@ -12,21 +12,21 @@ header
 #logo h1
 {
 	font-size: 2.5em;
-}
-.animation
+/*}**/
+/*.animation
 {
 	width:300px;
-}
+}*/
 .apres
 {
-	position: absolute;
+	/*position: absolute;
 	bottom: 0;
-	left: 39%;
 	display: block;
 	width: 0%;
 	height: 2px;
 	background-color: black;
-	transition: 0.5s;
+	transition: 0.5s;*/
+	left: 39%;
 }
 #animation .titre1 p:hover ~ .apres,
 #animation .titre2 p:hover ~ .apres,
@@ -41,20 +41,21 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-img
+/*img
 {
 	width: 33%;
 	margin: auto;
-}
+}*/
 .titre1, .titre2, .titre3
 {
-	position: relative;
+	/*position: relative;
 	display: flex;
 	flex-direction: row;
 	margin: auto;
 	align-items: center;
-	padding: 10px;
-	font-size: 1.6em;
+	padding: 10px;*/
+	/*font-size: 1.3em;
+	font-weight: bold;*/
 }
 main h3
 {
@@ -64,11 +65,11 @@ main h3
 	font-family: 'Dancing Script', cursive;
 	font-size: 3em;
 }
-h2
+/*h2
 {
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
-}
+}*/
 main
 {
 	display: flex;
@@ -77,12 +78,11 @@ main
 	margin: auto;
 	padding: 0;
 	width:80%;
-	border: 1px solid black;
-	margin-bottom: 70px;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 	margin-top: 30px;
+	margin-bottom: 70px;
 	border: none;
 	background:#edefef;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 	font-family: 'Caveat', cursive;
 }
 .Menu
@@ -91,18 +91,18 @@ main
 	flex-direction:column;
 	justify-content: space-between;
 	padding-right: 20px;
-	line-height: 2em;
 	font-size: 1.3em;
 }
-.Menu1 ul,.Menu2 ul,.Menu3 ul
+/*.Menu1 ul,.Menu2 ul,.Menu3 ul
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 20px;
 	list-style: none;
-}
-footer
+	line-height: 2em;
+}*/
+/*footer
 {
 	display: flex;
 	flex-direction: row;
@@ -125,8 +125,8 @@ footer a
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
 	text-decoration: none;
-}
-@-webkit-keyframes animation 
+}*/
+/*@-webkit-keyframes animation 
 { 
     0%  {
         transform: rotate(30deg);
@@ -146,7 +146,7 @@ footer a
 #Mentionslegales:hover, #Contacteznous:hover
 {
  	-webkit-animation: animation 0.5s; 
-}
+}*/
 body footer
 {
 	width:80%;
