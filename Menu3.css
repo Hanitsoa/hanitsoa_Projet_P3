@@ -13,11 +13,6 @@ header
 {
 	font-size: 2.5em;
 }
-.titre
-{
-	padding-top: 20px;
-	color: #6990b5;
-}
 .animation
 {
 	width:300px;
@@ -32,9 +27,7 @@ header
 	height: 2px;
 	background-color: black;
 	transition: 0.5s;
-	
 }
-
 #animation .titre1 p:hover ~ .apres,
 #animation .titre2 p:hover ~ .apres,
 #animation .titre3 p:hover ~ .apres
@@ -61,12 +54,9 @@ img
 	margin: auto;
 	align-items: center;
 	padding: 10px;
+	font-size: 1.6em;
 }
-.titre1 p, .titre2 p, .titre3 p
-{
-	font-size: 1.5em;
-}
-main h1
+main h3
 {
 	background-image: -webkit-linear-gradient(right,#83c0fa,#0935e1);
 	-webkit-background-clip:text;
@@ -74,7 +64,7 @@ main h1
 	font-family: 'Dancing Script', cursive;
 	font-size: 3em;
 }
-h3
+h2
 {
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;	
@@ -110,6 +100,7 @@ main
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 20px;
+	list-style: none;
 }
 footer
 {
@@ -128,19 +119,12 @@ footer
 	right: 0;
 	left: 0;
 }
-a
-{
-	text-decoration: none;
-}
 footer a
 {
 	color: #fdcc44;
 	font-size: 1.3em;
 	font-family: 'Manrope', sans-serif;
-}
-ul
-{
-	list-style: none;
+	text-decoration: none;
 }
 @-webkit-keyframes animation 
 { 
