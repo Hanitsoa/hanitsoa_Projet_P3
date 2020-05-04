@@ -151,6 +151,10 @@ body footer
 {
 	width:80%;
 }
+#Mentionslegales
+{
+	padding-left: 0px;
+}
 @media screen and (max-width: 900px)
 {
 	.Menu
@@ -184,6 +188,7 @@ body footer
 		padding:10px;
 		padding-right: 0px;
 		margin-right:0px;
+		margin-left: 2px;
 	}
 	main
 	{
