@@ -43,10 +43,11 @@ body #Mfinal .Menu5 ul
 {
 	display: flex;
 	flex-direction: column;
-	line-height: 2em;
+	line-height: 2.5em;
 	text-align: left;
 	margin-bottom: 30px;
 	list-style: none;
+	font-size: 1.2em;
 }
 /*img
 {
