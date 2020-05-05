@@ -1,31 +1,5 @@
-/*header
-{
-	text-align: center;
-	border: 1px solid #569d88;
-	background-color: #569d88;
-	color:#fdcc44;
-	font-family: 'Kanit', sans-serif;
-	width: 100%;
-	margin-right: 0;
-	padding-right: 0;
-}
-#logo h1
-{
-	font-size: 2.5em;
-/*}**/
-/*.animation
-{
-	width:300px;
-}*/
 .apres
 {
-	/*position: absolute;
-	bottom: 0;
-	display: block;
-	width: 0%;
-	height: 2px;
-	background-color: black;
-	transition: 0.5s;*/
 	left: 39%;
 }
 #animation .titre1 p:hover ~ .apres,
@@ -41,11 +15,6 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-/*img
-{
-	width: 33%;
-	margin: auto;
-}*/
 .titre1, .titre2, .titre3
 {
 	/*position: relative;
@@ -65,11 +34,6 @@ main h3
 	font-family: 'Dancing Script', cursive;
 	font-size: 3em;
 }
-/*h2
-{
-	font-size: 1.4em;
-	font-family: 'Kanit', sans-serif;	
-}*/
 main
 {
 	display: flex;
@@ -93,60 +57,6 @@ main
 	padding-right: 20px;
 	font-size: 1.3em;
 }
-/*.Menu1 ul,.Menu2 ul,.Menu3 ul
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-right: 20px;
-	list-style: none;
-	line-height: 2em;
-}*/
-/*footer
-{
-	display: flex;
-	flex-direction: row;
-	border: 1px solid #569d88;
-	background-color: #569d88;
-	color:#fdcc44;
-	margin: auto;
-	margin-top: 20px;
-	justify-content: space-between;
-	padding: 10px;
-	background-color: #569d88;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
-}
-footer a
-{
-	color: #fdcc44;
-	font-size: 1.3em;
-	font-family: 'Manrope', sans-serif;
-	text-decoration: none;
-}*/
-/*@-webkit-keyframes animation 
-{ 
-    0%  {
-        transform: rotate(30deg);
-    	}
-
-    30% {
-        transform: rotate(0deg);
-    	}
-
-    60% {
-        transform:rotate(30deg) ;
-   		}
-    100%{
-    	transform: rotate(0deg);
-    	}
-}
-#Mentionslegales:hover, #Contacteznous:hover
-{
- 	-webkit-animation: animation 0.5s; 
-}*/
 body footer
 {
 	width:80%;
@@ -175,6 +85,10 @@ body footer
 	{
 		width: 97%;
 	}
+	main h3
+	{
+		font-size: 2.5em;
+	}
 }
 @media screen and (max-width: 600px)
 {
@@ -201,6 +115,10 @@ body footer
 	{
 		font-size: 1.1em;
 	}
+	main h3
+	{
+		font-size: 2em;
+	}
 }
 @media screen and (max-width: 500px)
 {
@@ -225,5 +143,10 @@ body footer
 	body footer
 	{
 		font-size: 0.8em;
+		margin-left: 0;
+	}
+	footer #Contacteznous
+	{
+		padding-right: 0px;
 	}
 }

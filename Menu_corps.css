@@ -18,13 +18,6 @@ h2
 	font-size: 1.4em;
 	font-family: 'Kanit', sans-serif;
 }
-/*body*/
-{
-	width:80%;
-	text-align: center;
-	text-justify:auto;
-	margin: auto;
-}
 img
 {
 	width: 33%;
@@ -54,16 +47,6 @@ img
 	height: 2px;
 	background-color: black;
 	transition: 0.5s;
-}
-/*main*/
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: auto;
-	width: 80%;
-	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
-	margin-top: 30px;
 }
 .Menu1 ul,.Menu2 ul,.Menu3 ul,.Menu4 ul
 {
