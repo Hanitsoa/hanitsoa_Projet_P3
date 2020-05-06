@@ -45,11 +45,6 @@ main h3
 	-webkit-text-fill-color:transparent;
 	font-size: 1.5em;
 }
-/*.titre1, .titre2, .titre3*/
-{
-	font-size: 1.3em;
-	font-weight: bold;
-}
 .titre1 p, .titre2 p, .titre3 p
 {
 	font-size: 1.2em;
@@ -101,7 +96,7 @@ footer #Contacteznous
 {
 	padding-right:0;
 }
-@media sreen and (max-width: 900px)
+@media screen and (max-width: 900px)
 {
 	body, main
 	{
@@ -112,7 +107,7 @@ footer #Contacteznous
 {
 	body, main, body footer
 	{
-		width: 90%
+		width: 90%;
 	}
 	#animation .titre1 p:hover ~ .apres,
 	#animation .titre2 p:hover ~ .apres,
@@ -170,9 +165,6 @@ footer #Contacteznous
 }
 @media screen and (max-width: 440px)
 {
-	{
-		line-height: 1em;
-	}
 	#Appetit .Menu1 ul, #Appetit .Menu2 ul, #Appetit .Menu3 ul,
 	#Plaisir .Menu1 ul, #Plaisir .Menu2 ul, #Plaisir .Menu3 ul
 	{

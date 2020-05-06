@@ -112,7 +112,7 @@ body footer
     {
     	padding-right: 20px;
     }
-    #Mfinal .Menu5, 
+    #Mfinal .Menu5 
     {
     	font-size: 1.2em;
     }
@@ -207,14 +207,10 @@ body footer
 }
 @media screen and (max-width: 320px)
 {
-    .Menu , .Menu2 ul, .Menu3 ul, .Menu4 ul
+    .Menu, .Menu2 ul, .Menu3 ul, .Menu4 ul
 	{
 		flex-direction: column;
 		line-height: 1em;
-	}
-	#Mfinal .Menu
-	{
-		margin-top: 0;
 	}
 	body footer 
 	{
