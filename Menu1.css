@@ -39,7 +39,7 @@ body #Mfinal .Menu5 ul
 {
 	left:42%;
 }
-#animation .titre p:hover ~ .apres
+.animation .titre p:hover ~ .apres
 	{
 		width:18%;
 	}
@@ -55,6 +55,7 @@ main
 	background:#FCDFDA;
 	border: 1px solid #FFB6C1;
 	color: #330000;
+	margin-bottom: 70px;
 }
 #noteenchante2
 {
@@ -70,10 +71,10 @@ main
 	font-size: 1.3em;
 	font-weight: bold;
 }
-body footer
+/*body footer
 {
 	width:80%;
-}
+}*/
 .Menu, .Menu5
 {
 	display: flex;
@@ -91,7 +92,6 @@ body footer
 	{
 		display: flex;
 		width:80%;
-		margin: auto;
 	}
 	#Pdorgue .Menu1 ul, #Pdorgue .Menu2 ul, #Pdorgue .Menu3 ul, 
 	#Prélude .Menu1 ul, #Prélude .Menu2 ul, #Prélude .Menu3 ul, #Prélude .Menu4 ul
@@ -138,10 +138,10 @@ body footer
 	{
 		width: 97%;
 	}
-	footer #Contacteznous
+	/*footer #Contacteznous
 	{
 		padding-right: 20px;
-	}
+	}*/
 	#Pdorgue .Menu1 ul, #Pdorgue .Menu2 ul, #Pdorgue .Menu3 ul
 	{
 		flex-direction:row;
@@ -180,7 +180,7 @@ body footer
 }
 @media screen and (max-width: 425px)
 {
-	}
+	
 	#Mfinal .Menu5
 	{
 		line-height: 1.5em;
@@ -200,7 +200,7 @@ body footer
 	{
 		left:35%;
 	}
-	#animation .titre p:hover ~ .after
+	.animation .titre p:hover ~ .after
 		{
 			width:30%;
 		}

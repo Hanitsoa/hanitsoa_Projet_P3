@@ -35,7 +35,7 @@ main
 {
 	left: 40%;
 }
-#animation .titre4 p:hover ~ .apres
+.animation .titre4 p:hover ~ .apres
 	{
 		width:20%;
 	}
