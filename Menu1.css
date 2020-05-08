@@ -25,12 +25,16 @@ body #Mfinal .Menu5 ul
 {
 	display: flex;
 	flex-direction: column;
-	line-height: 2.5em;
+	line-height: 2em;
 	text-align: left;
 	margin-bottom: 30px;
 	list-style: none;
 	font-size: 1.2em;
 }
+/*.Menu5 li
+{
+	line-height: 3em;
+}*/
 .titre
 {
 	font-family: 'Caveat', cursive;
@@ -71,10 +75,6 @@ main
 	font-size: 1.3em;
 	font-weight: bold;
 }
-/*body footer
-{
-	width:80%;
-}*/
 .Menu, .Menu5
 {
 	display: flex;
@@ -138,10 +138,10 @@ main
 	{
 		width: 97%;
 	}
-	/*footer #Contacteznous
+	footer #Contacteznous
 	{
 		padding-right: 20px;
-	}*/
+	}
 	#Pdorgue .Menu1 ul, #Pdorgue .Menu2 ul, #Pdorgue .Menu3 ul
 	{
 		flex-direction:row;
@@ -155,12 +155,18 @@ main
 }
 @media screen and (max-width: 570px)
 {
-	#Mfinal .Menu5
+	body #Mfinal .Menu5 ul
+	{
+	/*display: flex;
+	flex-direction: column;*/
+	text-align: center;
+}
+	#Mfinal .Menu5,
 	{
 		font-size: 1.1em;
 	}
 	#Pdorgue .Menu1 ul, #Pdorgue .Menu2 ul, #Pdorgue .Menu3 ul, #Pdorgue .Menu4 ul,
-	#Prélude .Menu1 ul, #Prélude .Menu2 ul, #Prélude .Menu3 ul, #Prélude .Menu4 ul
+	#Prélude .Menu1 ul, #Prélude .Menu2 ul, #Prélude .Menu3 ul, #Prélude .Menu4 ul,#Mfinal .Menu5 ul
 	
 	{
 		display: flex;
@@ -183,8 +189,8 @@ main
 	
 	#Mfinal .Menu5
 	{
-		line-height: 1.5em;
-		padding-right: 20px;
+		line-height: 0.8em;
+		padding-right: 40px;
 		font-size: 1em;
 	}
 	.Menu1 ul, .Menu2 ul, .Menu3 ul, .Menu4 ul
