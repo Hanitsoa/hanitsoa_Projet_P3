@@ -1,3 +1,4 @@
+
 .text h3
 {
 	color:#663300;
@@ -25,28 +26,24 @@ body #Mfinal .Menu5 ul
 {
 	display: flex;
 	flex-direction: column;
-	line-height: 2em;
+	line-height: 1.5em;
 	text-align: left;
 	margin-bottom: 30px;
 	list-style: none;
 	font-size: 1.2em;
 }
-/*.Menu5 li
-{
-	line-height: 3em;
-}*/
 .titre
 {
 	font-family: 'Caveat', cursive;
 }
 .apres
 {
-	left:42%;
+	left: 43.5%;
 }
 .animation .titre p:hover ~ .apres
-	{
-		width:18%;
-	}
+{
+	width:13%;
+}
 main
 {
 	display: flex;
@@ -85,6 +82,10 @@ main
 	margin-top: 0;
 	font-family: 'Caveat', cursive;
 	line-height: 2em;
+}
+.Menu5 li
+{
+line-height: 2em;
 }
 @media screen and (max-width:1500px)
 {
@@ -127,6 +128,18 @@ main
 	{
 		line-height: 2em;
 	}
+	.apres
+{
+	left: 41%;
+}
+.animation .titre p:hover ~ .apres
+	{
+		width:18.5%;
+	}
+	#Mentionslegales
+	{
+		padding-left: 10px;
+	}
 }
 @media screen and (max-width: 700px)
 {
@@ -157,17 +170,14 @@ main
 {
 	body #Mfinal .Menu5 ul
 	{
-	/*display: flex;
-	flex-direction: column;*/
-	text-align: center;
-}
-	#Mfinal .Menu5,
+		text-align: center;
+	}
+	#Mfinal .Menu5
 	{
 		font-size: 1.1em;
 	}
 	#Pdorgue .Menu1 ul, #Pdorgue .Menu2 ul, #Pdorgue .Menu3 ul, #Pdorgue .Menu4 ul,
 	#Prélude .Menu1 ul, #Prélude .Menu2 ul, #Prélude .Menu3 ul, #Prélude .Menu4 ul,#Mfinal .Menu5 ul
-	
 	{
 		display: flex;
 		flex-direction:column;
@@ -186,7 +196,10 @@ main
 }
 @media screen and (max-width: 425px)
 {
-	
+	#Mentionslegales
+	{
+		padding-left: 0px;
+	}
 	#Mfinal .Menu5
 	{
 		line-height: 0.8em;
@@ -202,13 +215,13 @@ main
 	{
 		font-size: 0.7em;
 	}
-	.after
+	.apres
 	{
-		left:35%;
+		left:36%;
 	}
-	.animation .titre p:hover ~ .after
+	.animation .titre p:hover ~ .apres
 		{
-			width:30%;
+			width:28%;
 		}
 }
 @media screen and (max-width: 320px)
@@ -224,5 +237,9 @@ main
 		padding-left:0;
 		padding-right: 0;
 		margin: 0;
+	}
+	#Mentionslegales
+	{
+		padding-left: 20px;
 	}
 }

@@ -12,56 +12,30 @@ header
 #logo h1
 {
 	font-size: 2.5em;
-	text-decoration: none;
 	color:#fdcc44;
+	text-decoration: none;
 }
-#logo a
-{
-	text-decoration:none;
-}
-h2
-{
-	font-size: 1.4em;
-	font-family: 'Kanit', sans-serif;
-}
-img
-{
-	width: 33%;
-	margin: auto;
-}
-.titre, .titre1, .titre2, .titre3, .titre4
-{
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	margin: auto;
-	align-items: center;
-	padding: 10px;
-	font-size: 1.3em;
-	font-weight: bold;
-}
-.animation
-{
-	width: auto;
-}
-.apres
-{
-	position: absolute;
-	bottom:0;
-	display: block;
-	width: 0%;
-	height: 2px;
-	background-color: black;
-	transition: 0.5s;
-}
-.Menu1 ul,.Menu2 ul,.Menu3 ul,.Menu4 ul
+body
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-right: 20px;
-	list-style: none;
-	line-height: 2em;
+	flex-direction: column;
+	width:80%;
+	justify-content:center;
+	margin: auto; 
+}
+main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: justify;
+	margin:auto;
+	width: 80%;
+	border: none;
+	padding:10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+    font-size: 1.2em
 }
 footer
 {
@@ -69,10 +43,11 @@ footer
 	flex-direction: row;
 	border: 1px solid #569d88;
 	background-color: #569d88;
+	color:#fdcc44;
 	margin: auto;
 	margin-top: 20px;
 	justify-content: space-between;
-	padding: 10px;
+	/*padding: 10px;*/
 	background-color: #569d88;
 	position: fixed;
 	bottom: 0;
@@ -80,12 +55,20 @@ footer
 	left: 0;
 	width:80%;
 }
+h3
+{
+	text-align: center;
+}
 footer a
 {
-	color: #fdcc44;
-	font-size: 1.3em;
-	font-family: 'Manrope', sans-serif;
+	color:#fdcc44;
 	text-decoration: none;
+	font-family: 'Manrope', sans-serif;
+	font-size: 1.3em;
+}
+#Mentionslegales, #Contacteznous
+{
+	padding: 10px;
 }
 @-webkit-keyframes animation 
 { 
@@ -108,14 +91,29 @@ footer a
 {
  	-webkit-animation: animation 0.5s; 
 }
-article
-/*{
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
-    padding-bottom: 70px;
-}*/
-h3
+@media screen and (max-width: 768px)
 {
-	text-align: center;
+	main
+	{
+		font-size: 1em;
+		/*padding-right: 10px;
+		padding-left: 0px;*/
+	}
+	body, footer
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	main
+	{
+		font-size: 0.8em;
+		/*padding-right: 10px;
+		padding-left: 0px;*/
+	}
+	#Mentionslegales, #Contacteznous
+	{
+		font-size: 0.8em;
+	}
 }

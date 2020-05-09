@@ -1,3 +1,8 @@
+#logo h1
+{
+	font-size: 2.5em;
+	color:#fdcc44;
+}
 .titre1
 {
 	padding-top: 20px;
@@ -9,11 +14,11 @@ body
 	text-justify:auto;
 	margin: auto;
 }
-body #Gourmandises .Menu4
+body #Gourmandises .Menu6 ul
 {
 	display: flex;
 	flex-direction: column;
-	text-align: left;
+	text-align:left;
 	padding-right: 20px;
 	margin-bottom: 30px;
 	line-height: 2em;
@@ -52,14 +57,14 @@ main h3
 }
 .apres
 {
-	left:38%;
+	left:35%;
 }
 .animation .titre1 p:hover ~ .apres,
 .animation .titre2 p:hover ~ .apres,
 .animation .titre3 p:hover ~ .apres
-	{
-		width:25%;
-	}
+{
+	width:30%;
+}
 .Menu
 {
 	display: flex;
@@ -101,6 +106,16 @@ footer #Contacteznous
 	body, main
 	{
 		width: 80%;
+	}
+	.titre1 .apres,.titre2 .apres, .titre3 .apres
+	{
+		left:34.5%;
+	}
+	.animation .titre1 p:hover ~ .apres,
+	.animation .titre2 p:hover ~ .apres,
+	.animation .titre3 p:hover ~ .apres
+	{
+		width:31%;
 	}
 }
 @media screen and (max-width: 800px)
@@ -173,6 +188,12 @@ footer #Contacteznous
 		line-height: 1.5em;
 		font-size: 1.2em;
 	}
+	body #Gourmandises .Menu6 ul
+	{
+		display: flex;
+		text-align:center;
+		font-size: 1.2em;
+	}
 	#Appetit .Menu7
 	{
 		font-size: 0.8em;
@@ -184,17 +205,17 @@ footer #Contacteznous
 	}
 	body footer {
 		font-size: 0.8em;
-		padding-right: 30px;
+		padding-right:30px;
 		margin-left: 0;
 		margin-right: 0;
-		width: 90%;
+		width: 100%;
 		margin-bottom: 0;
 		text-align: center;
 	}
 	footer #Contacteznous
     {
-    	padding-right: 0;
-	}
+    	padding-right:25px;
+    }
 	#animation .titre1 p:hover ~ .apres,
 	#animation .titre2 p:hover ~ .apres,
 	#animation .titre3 p:hover ~ .apres
@@ -208,12 +229,8 @@ footer #Contacteznous
 		height:2px;
 		transition: 0.5s;
 	}
-	#Gourmandises p, #Plaisir p, #Appetit p
+	#Gourmandises p, #Plaisir p, #Appetit p, #Gourmandises .Menu6
 	{
 		font-size: 0.8em;
 	}
-	#Gourmandises .Menu6
-	{
-		font-size: 0.8em;
-	}	
 }

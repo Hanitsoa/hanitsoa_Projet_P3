@@ -134,8 +134,18 @@ body footer
 		font-size: 0.8em;
 		margin-left: 0;
 	}
+	.apres
+	{
+		left: 35%;
+	}
+	.animation .titre1 p:hover ~ .apres,
+	.animation .titre2 p:hover ~ .apres,
+	.animation .titre3 p:hover ~ .apres
+	{
+		width:30%;
+	}
 	footer #Contacteznous
 	{
-		padding-right: 0px;
+		padding-right: 20px;
 	}
 }

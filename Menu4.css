@@ -115,6 +115,7 @@ main
 		display: flex;
 		flex-direction: column;
 		line-height: 1.5em;
+		padding-right: 35px;
 	}
 	li span
 	{
@@ -125,16 +126,20 @@ main
 	{
 		font-size: 0.8em;
 	}
-	#animation .titre4 p:hover ~ .apres
+	.animation .titre4 p:hover ~ .apres
 	{
-		width:28%;
+		width:29%;
 	}
 	.apres
 	{
-		left: 37%;
+		left: 36%;
 	}
 	#Mentionslegales
 	{
 		padding-left: 10px;
+	}
+	#Contacteznous
+	{
+		padding-right: 7px;
 	}
 }
