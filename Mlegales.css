@@ -13,6 +13,9 @@ header
 {
 	font-size: 2.5em;
 	color:#fdcc44;
+}
+#logo a
+{
 	text-decoration: none;
 }
 body

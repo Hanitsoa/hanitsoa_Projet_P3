@@ -51,6 +51,7 @@ i
 #menu2 p
 {
 	font-family: 'Croissant One', cursive;
+	font-weight: bold;
 	background-image: -webkit-linear-gradient(right,#915bfd, #d07e4b);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -68,6 +69,7 @@ i
 #menu3 p
 {
 	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
 	background-image: -webkit-linear-gradient(right,#83c0fa,#0935e1);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -91,6 +93,7 @@ i
 #menu4 p
 {
 	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
 	background-image: -webkit-linear-gradient(right,#c0ff7f,#55a44d);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
