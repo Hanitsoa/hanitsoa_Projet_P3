@@ -2,6 +2,7 @@ header
 {
 	text-align: center;
 	background-color: #569d88;
+	border: 1px solid transparent;
 	color:#fdcc44;
 	font-family: 'Kanit', sans-serif;
 	width: 100%;
