@@ -211,7 +211,11 @@ section a:hover
 	}
 	footer #Contacteznous
 	{
-		padding-right: 25px;
+		padding-right: 10px;
+	}
+	footer #Mentionslegales
+	{
+		padding-left: 10px;
 	}
 }
 @media screen and (max-width:1208px)
